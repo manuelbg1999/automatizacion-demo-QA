@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class runners.Runner</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class runners.Runner</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/runners.html">runners</a> &gt; Runner</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">0</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">-</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/mbolano/Documents/AUTOMATIZACION/practica/src/test/resources/features/practica.feature
+[Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO  - Test Suite Started: Como usuario quiero
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/mbolano/Documents/AUTOMATIZACION/practica/src/test/resources/features/practica.feature
+[Test worker] INFO  - Test Suite Started: Como usuario quiero
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+java.lang.NullPointerException: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.narrativePackagesIn(PackageRequirementsTagProvider.java:211)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.findPackagesWithNarrativeAnnotationIn(PackageRequirementsTagProvider.java:206)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsFromClassesInPackage(PackageRequirementsTagProvider.java:184)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsStartingFrom(PackageRequirementsTagProvider.java:168)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementsReadFromClasspath(PackageRequirementsTagProvider.java:127)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.fetchRequirements(PackageRequirementsTagProvider.java:111)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getRequirements(PackageRequirementsTagProvider.java:95)
+	at net.thucydides.core.requirements.RequirementsProvided.by(RequirementsProvided.java:17)
+	at net.thucydides.core.requirements.MultiSourceRequirementsService.getRequirements(MultiSourceRequirementsService.java:40)
+	at net.thucydides.core.requirements.BaseRequirementsService.getRequirementTypes(BaseRequirementsService.java:197)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:185)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:103)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+java.lang.NullPointerException: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.narrativePackagesIn(PackageRequirementsTagProvider.java:211)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.findPackagesWithNarrativeAnnotationIn(PackageRequirementsTagProvider.java:206)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsFromClassesInPackage(PackageRequirementsTagProvider.java:184)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsStartingFrom(PackageRequirementsTagProvider.java:168)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementsReadFromClasspath(PackageRequirementsTagProvider.java:127)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.fetchRequirements(PackageRequirementsTagProvider.java:111)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getRequirements(PackageRequirementsTagProvider.java:95)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getTestCaseRequirementOf(PackageRequirementsTagProvider.java:283)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getParentRequirementOf(PackageRequirementsTagProvider.java:279)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:193)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:103)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+java.lang.NullPointerException: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.narrativePackagesIn(PackageRequirementsTagProvider.java:211)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.findPackagesWithNarrativeAnnotationIn(PackageRequirementsTagProvider.java:206)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsFromClassesInPackage(PackageRequirementsTagProvider.java:184)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsStartingFrom(PackageRequirementsTagProvider.java:168)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementsReadFromClasspath(PackageRequirementsTagProvider.java:127)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.fetchRequirements(PackageRequirementsTagProvider.java:111)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getRequirements(PackageRequirementsTagProvider.java:95)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getTestCaseRequirementOf(PackageRequirementsTagProvider.java:283)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getParentRequirementOf(PackageRequirementsTagProvider.java:279)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:223)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:211)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:103)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+java.lang.NullPointerException: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.narrativePackagesIn(PackageRequirementsTagProvider.java:211)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.findPackagesWithNarrativeAnnotationIn(PackageRequirementsTagProvider.java:206)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsFromClassesInPackage(PackageRequirementsTagProvider.java:184)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsStartingFrom(PackageRequirementsTagProvider.java:168)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementsReadFromClasspath(PackageRequirementsTagProvider.java:127)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.fetchRequirements(PackageRequirementsTagProvider.java:111)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getRequirements(PackageRequirementsTagProvider.java:95)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getTestCaseRequirementOf(PackageRequirementsTagProvider.java:283)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getParentRequirementOf(PackageRequirementsTagProvider.java:279)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:224)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:211)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:103)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+java.lang.NullPointerException: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.narrativePackagesIn(PackageRequirementsTagProvider.java:211)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.findPackagesWithNarrativeAnnotationIn(PackageRequirementsTagProvider.java:206)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsFromClassesInPackage(PackageRequirementsTagProvider.java:184)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsStartingFrom(PackageRequirementsTagProvider.java:168)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementsReadFromClasspath(PackageRequirementsTagProvider.java:127)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.fetchRequirements(PackageRequirementsTagProvider.java:111)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getRequirements(PackageRequirementsTagProvider.java:95)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getTestCaseRequirementOf(PackageRequirementsTagProvider.java:283)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getParentRequirementOf(PackageRequirementsTagProvider.java:279)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementFor(BaseRequirementsService.java:48)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:193)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:251)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:106)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+java.lang.NullPointerException: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.narrativePackagesIn(PackageRequirementsTagProvider.java:211)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.findPackagesWithNarrativeAnnotationIn(PackageRequirementsTagProvider.java:206)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsFromClassesInPackage(PackageRequirementsTagProvider.java:184)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsStartingFrom(PackageRequirementsTagProvider.java:168)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementsReadFromClasspath(PackageRequirementsTagProvider.java:127)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.fetchRequirements(PackageRequirementsTagProvider.java:111)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getRequirements(PackageRequirementsTagProvider.java:95)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getTestCaseRequirementOf(PackageRequirementsTagProvider.java:283)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getParentRequirementOf(PackageRequirementsTagProvider.java:279)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:223)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:211)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:251)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:106)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[pool-2-thread-1] WARN net.thucydides.core.requirements.RequirementsTagProvider - Failed to load requirements: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+java.lang.NullPointerException: Cannot invoke &quot;io.github.classgraph.PackageInfo.hasAnnotation(java.lang.Class)&quot; because &quot;parentPackage&quot; is null
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.narrativePackagesIn(PackageRequirementsTagProvider.java:211)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.findPackagesWithNarrativeAnnotationIn(PackageRequirementsTagProvider.java:206)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsFromClassesInPackage(PackageRequirementsTagProvider.java:184)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementPathsStartingFrom(PackageRequirementsTagProvider.java:168)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.requirementsReadFromClasspath(PackageRequirementsTagProvider.java:127)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.fetchRequirements(PackageRequirementsTagProvider.java:111)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getRequirements(PackageRequirementsTagProvider.java:95)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getTestCaseRequirementOf(PackageRequirementsTagProvider.java:283)
+	at net.thucydides.core.requirements.PackageRequirementsTagProvider.getParentRequirementOf(PackageRequirementsTagProvider.java:279)
+	at net.thucydides.core.requirements.ParentRequirementsProvided.forOutcome(ParentRequirementsProvided.java:26)
+	at net.thucydides.core.requirements.BaseRequirementsService.getParentRequirementOf(BaseRequirementsService.java:138)
+	at net.thucydides.core.requirements.BaseRequirementsService.getAncestorRequirementsFor(BaseRequirementsService.java:78)
+	at net.thucydides.core.tags.BreadcrumbTagFilter.getRequirementBreadcrumbsFrom(BreadcrumbTagFilter.java:51)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addBreadcrumbs(HtmlAcceptanceTestReporter.java:224)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addParentRequirmentFieldToContext(HtmlAcceptanceTestReporter.java:211)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.addTestOutcomeToContext(HtmlAcceptanceTestReporter.java:187)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateScreenshotReportsFor(HtmlAcceptanceTestReporter.java:251)
+	at net.thucydides.core.reports.html.HtmlAcceptanceTestReporter.generateReportFor(HtmlAcceptanceTestReporter.java:106)
+	at net.thucydides.core.reports.ReportService.generateReportFor(ReportService.java:246)
+	at net.thucydides.core.reports.ReportService.lambda$generateReportsFor$0(ReportService.java:184)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/mbolano/Documents/AUTOMATIZACION/practica/src/test/resources/features/practica.feature
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.1</a> at 5 jul 2023 9:10:52</p>
+</div>
+</div>
+</body>
+</html>
