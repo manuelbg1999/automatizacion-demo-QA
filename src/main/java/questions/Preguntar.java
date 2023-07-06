@@ -4,9 +4,8 @@ import model.Data;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import userinterface.texto;
+import userinterface.Texto;
 
-import javax.swing.*;
 import java.util.List;
 
 public class Preguntar  implements Question <Boolean>{
@@ -26,7 +25,7 @@ public class Preguntar  implements Question <Boolean>{
     public Boolean answeredBy(Actor actor) {
 
         boolean result;
-       String finalText= Text.of(texto.texto).answeredBy(actor);
+       String finalText= Text.of(Texto.texto).answeredBy(actor);
 
         if(finalText.equals(data.get(0).getTexto())){
             result=true;

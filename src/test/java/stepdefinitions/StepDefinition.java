@@ -10,11 +10,13 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import questions.Preguntar;
-import task.diligenciar;
+import task.Diligenciar;
 
 import java.util.List;
 
 public class StepDefinition {
+
+    ///Se  nombra el actor
     @Before
     public void setThestage() {
 
@@ -27,7 +29,7 @@ public class StepDefinition {
     }
     @When("llene el formulario con los siguientes datos")
     public void lleneElFormularioConLosSiguientesDatos(List<Data> data) {
-        OnStage.theActorInTheSpotlight().attemptsTo(diligenciar.llenar(data));
+        OnStage.theActorInTheSpotlight().attemptsTo(Diligenciar.llenar(data));
     }
     @Then("se me lista los datos ingresados en la pagina con el texto")
     public void seMeListaLosDatosIngresadosEnLaPaginaConElTexto(List<Data> data) {
