@@ -2,8 +2,9 @@
 
 
   Feature: Como usuario quiero
-        ingresar a demo qa
-       para llenar el formulario de practica
+           ingresar a demo qa
+           para llenar el formulario de practica
+
     @practica
   Scenario: Ingresar a la pagina
      Given que estoy en la pagina de QA
@@ -14,8 +15,13 @@
        |texto|
        |Text Box|
 
-
-
+    @practica2
+    Scenario: Ingresar a la pagina demo QA
+      Given Dado que ingreso al enlace
+      When  le doy click en el boton text box
+      Then veo el siguiente texto
+        |texto2|
+        |Text Box|
 
 
 

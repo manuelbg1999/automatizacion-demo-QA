@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/practica.feature",
         glue = "stepdefinitions",
-        tags = "@practica",
+        tags = "",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 
