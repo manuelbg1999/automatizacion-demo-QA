@@ -3,6 +3,7 @@ package stepdefinitions;
 
 import io.cucumber.java.DataTableType;
 import model.Data;
+import model.Data2;
 
 import java.util.Map;
 
@@ -20,5 +21,12 @@ public class DataTableDefinitions {
         );
     }
 
+
+    @DataTableType
+    public Data2 data2(Map<String, String> entry) {
+        return new Data2(entry.get("texto2")
+
+        );
+    }
 
 }

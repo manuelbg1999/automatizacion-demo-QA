@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Como usuario quiero" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-05T14:10:11" hostname="QV-4153" time="37.244">
+<testsuite name="Como usuario quiero" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-06T19:11:02" hostname="QV-4153" time="45.291">
   <properties/>
-  <testcase name="Ingresar a la pagina" classname="Como usuario quiero" time="37.244"/>
+  <testcase name="Ingresar a la pagina demo QA" classname="Como usuario quiero" time="45.291"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/mbolano/Documents/AUTOMATIZACION/practica/src/test/resources/features/practica.feature
 [Test worker] INFO  - 
@@ -10,22 +10,22 @@
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Ingresar a la pagina(como-usuario-quiero;ingresar-a-la-pagina)
+Ingresar a la pagina demo QA(como-usuario-quiero;ingresar-a-la-pagina-demo-qa)
 --------------------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\mbolano\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 57839
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 53069
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-jul 05, 2023 9:10:28 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+jul 06, 2023 2:11:18 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-jul 05, 2023 9:10:28 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+jul 06, 2023 2:11:18 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: a no-op implementation
-jul 05, 2023 9:10:28 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+jul 06, 2023 2:11:18 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 114.
-jul 05, 2023 9:10:28 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+jul 06, 2023 2:11:18 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
@@ -33,7 +33,7 @@ WARNING: Unable to find version of CDP to use for . You may need to include a de
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
    |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
-Ingresar a la pagina
+Ingresar a la pagina demo QA
 ----------------------------------------------------------------------
 ]]></system-err>
 </testsuite>
