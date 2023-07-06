@@ -2,7 +2,6 @@ package task;
 
 import model.Data;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
@@ -10,21 +9,21 @@ import net.serenitybdd.screenplay.actions.Enter;
 
 import java.util.List;
 
-import static userinterface.interfaz.*;
+import static userinterface.Interfaz.*;
 
-public class diligenciar implements Task {
+public class Diligenciar implements Task {
 
 
 
     private List<Data> data;
 
-    public diligenciar(List<Data> data) {
+    public Diligenciar(List<Data> data) {
         this.data = data;
     }
 
-    public static diligenciar llenar(List<Data> data) {
+    public static Diligenciar llenar(List<Data> data) {
 
-        return  Tasks.instrumented(diligenciar.class,data);
+        return  Tasks.instrumented(Diligenciar.class,data);
     }
 
 ///Aqui van las acciones llenar, clickear etc.

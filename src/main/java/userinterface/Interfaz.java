@@ -4,7 +4,7 @@ import io.cucumber.core.backend.Located;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class interfaz {
+public class Interfaz {
 
     ///aqui se Mapean  los elementos
 
